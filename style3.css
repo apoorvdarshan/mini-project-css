@@ -1,0 +1,41 @@
+body {
+    background-image: url(photo.jpg);
+    background-size: cover;
+}
+
+#box {
+    height: 650px;
+    width: 650px;
+    background-color: rgba(255,255,255,0.1);
+    box-shadow: 0 0 6px rgba(255,255,255,0.5);
+    margin-top: 20px;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+    place-items: center;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+img {
+    width: 600px;
+    border-radius: 10px;
+}
+
+.btn_one i {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: 16px;
+    line-height: 60px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.btn_one i:hover {
+    font-size: 40px;
+}
